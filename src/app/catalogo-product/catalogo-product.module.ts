@@ -1,8 +1,8 @@
-import { NgModule, NO_ERRORS_SCHEMA } from '@angular/core';
+import { NgModule, NO_ERRORS_SCHEMA } from "@angular/core";
 
-import { CatalogoProductRoutingModule } from './catalogo-product-routing.module';
-import { NativeScriptCommonModule } from 'nativescript-angular/common';
-import { CatalogoProductComponent } from './catalogo-product/catalogo-product.component';
+import { CatalogoProductRoutingModule } from "./catalogo-product-routing.module";
+import { NativeScriptCommonModule } from "nativescript-angular/common";
+import { CatalogoProductComponent } from "./catalogo-product.component";
 
 
 @NgModule({
@@ -11,7 +11,6 @@ import { CatalogoProductComponent } from './catalogo-product/catalogo-product.co
     CatalogoProductRoutingModule,
     NativeScriptCommonModule
   ],
-  schemas: [NO_ERRORS_SCHEMA],
-  entryComponents: [CatalogoProductComponent]
+  schemas: [NO_ERRORS_SCHEMA]
 })
 export class CatalogoProductModule { }

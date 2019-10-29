@@ -7,7 +7,7 @@
 // Common page class
 .page-content {
     .page-placeholder {
-        color: $page-icon-color;
+        color: $page-icon-color; 
         font-size: $page-content-placeholder-font-size;
         vertical-align: center;
         horizontal-align: center;
@@ -20,11 +20,22 @@
         color: $page-icon-color;
         margin-top: 20%;
     }
+    background: linear-gradient(45deg, rgba(0,0,0,1) 0%, rgba(94,93,92,1) 49%, rgba(0,0,0,1) 100%);
 }
 
 //Action bar
+NavigationButton.action-bar-button {
+    color: black;
+}
+.action-bar {
+    background-color: white;
+    background-image: url('~/src/app/assets/SS-03-1.png');
+    background-size: 70%;
+    background-position: center
+}
 ActionBar .action-bar-title {
     horizontal-align: center;
+    color: black;
 }
 
  // Drawer navigation custom styles
