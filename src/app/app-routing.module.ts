@@ -8,7 +8,8 @@ const routes: Routes = [
     { path: "browse", loadChildren: () => import("~/app/browse/browse.module").then(m => m.BrowseModule) },
     { path: "search", loadChildren: () => import("~/app/search/search.module").then(m => m.SearchModule) },
     { path: "featured", loadChildren: () => import("~/app/featured/featured.module").then(m => m.FeaturedModule) },
-    { path: "settings", loadChildren: () => import("~/app/settings/settings.module").then(m => m.SettingsModule) }
+    { path: "settings", loadChildren: () => import("~/app/settings/settings.module").then(m => m.SettingsModule) },
+    { path: "catalogo", loadChildren: () => import("~/app/catalogo-product/catalogo-product.module").then(m => m.CatalogoProductModule) }
 ];
 
 @NgModule({
